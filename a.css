@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.yes{
+    text-align: center;
+    transform: translate(0%,70%);
+}
+.yes h1{
+    font-size: 80px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.yes h2{
+    font-size: 90px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.yes button{
+    padding: auto;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s all ease;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.yes button:hover{
+    background-color: black;
+    color: white;
+}
